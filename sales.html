@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="imgs/flavoricon.png">
+  <title>
+    Home Flavor
+  </title>
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,700,500italic,100italic,100'
+    rel='stylesheet' type='text/css'>
+  <link href="css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+  <link href="css/style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.0/css/all.css" />
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.0/css/sharp-solid.css" />
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.0/css/sharp-regular.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="header">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2 col-sm-2">
+            <div class="logo">
+              <a href="index.html">
+                <img src="imgs/Logo.png" alt="HomeFlavor" style="max-width: 70%;">
+              </a>
+            </div>
+          </div>
+          <div class="col-md-10 col-sm-10">
+            <div class="header_top">
+              <div class="row">
+                <div class="col-md-1">
+                  <ul class="usermenu">
+                    <li>
+                      <a href="signup.html" class="ĐĂNG KÝ">
+                        ĐĂNG KÝ
+                      </a>
+                    </li>
+                    <li>
+                      <a href="login.html" class="ĐĂNG NHẬP">
+                        ĐĂNG NHẬP
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="header_bottom">
+              <ul class="option">
+                <li id="search" class="search">
+                  <form action="sales.html" method="get">
+                    <input class="search-submit" name="keywords" type="submit" value="">
+                    <input class="search-input" placeholder="Nhập sản phẩm..." type="text" value="" name="search">
+                  </form>
+                </li>
+                <li class="option-cart">
+                  <a href="cart2.html" class="cart-icon"><i class="material-icons"
+                      style="font-size:22px; margin-top: 5px; margin-left: 5px;">shopping_cart</i></a>
+                </li>
+              </ul>
+              <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                  <li class="dropdown"><a href="index.html">TRANG CHỦ</a></li>
+                  <li class="active dropdown">
+                    <a href="#" class="dropdown" data-toggle="dropdown">SẢN PHẨM</a>
+                    <div class="dropdown-menu">
+                      <ul class="mega-menu-links">
+                        <li><a href="product-vegetable.html">Rau - củ</a></li>
+                        <li><a href="product-fruit.html">Trái cây</a></li>
+                        <li><a href="product-meat.html">Thịt</a></li>
+                        <li><a href="product-seafood.html">Hải sản</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="dropdown"><a href="sales.html">KHUYẾN MÃI</a></li>
+                  <li class="dropdown"><a href="intro.html">GIỚI THIỆU</a></li>
+                  <li class="dropdown"><a href="news.html">TIN TỨC</a></li>
+                  <li class="dropdown"><a href="contact.html">LIÊN HỆ</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="center_taskbar">
+      <p
+        style="font-weight: bold ; padding-top: 6px ;margin-left: 20px; font-size: 15px; font-family: 'Roboto', sans-serif; color:black, ">
+        <a href="index.html"><b>TRANG CHỦ</b></a>
+        <a href="sales.html"><i class="fa-sharp fa-light fa-angle-right"></i> KHUYẾN MÃI </a>
+      </p>
+    </div>
+    <div class="container_fullwidth">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="category leftbar">
+              <h3 class="title">
+                DANH MỤC SẢN PHẨM
+              </h3>
+              <ul>
+                <li>
+                  <a href="product-vegetable.html">
+                    Rau - củ
+                  </a>
+                </li>
+                <li>
+                  <a href="product-fruit.html">
+                    Trái cây
+                  </a>
+                </li>
+                <li>
+                  <a href="product-meat.html">
+                    Thịt
+                  </a>
+                </li>
+                <li>
+                  <a href="product-seafood.html">
+                    Hải sản
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="price-filter leftbar">
+              <h3 class="title">
+                GIÁ
+              </h3>
+              <form class="pricing">
+                <label>
+                  VNĐ
+                  <input type="number">
+                </label>
+                <span class="separate">
+                  -
+                </span>
+                <label>
+                  VNĐ
+                  <input type="number">
+                </label>
+                <input type="submit" value="Go">
+              </form>
+            </div>
+            <div class="others leftbar">
+              <h3 class="title">
+                Khác
+              </h3>
+            </div>
+            <div class="fbl-box leftbar">
+              <h3 class="title">
+                Facebook
+              </h3>
+              <span class="likebutton">
+                <a href="#">
+                  <img src="imgs/fblike.png" alt="">
+                </a>
+              </span>
+              <p>
+                12k people like HomeFlavor
+              </p>
+              <ul>
+                <li>
+                  <a href="#">
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                  </a>
+                </li>
+              </ul>
+              <div class="fbplug">
+                <a href="#">
+                  <span>
+                    <img src="imgs/fbicon.png" alt="">
+                  </span>
+                  Facebook social plugin
+                </a>
+              </div>
+            </div>
+            <div class="leftbanner">
+              <img src="imgs/hinhraucu.png" alt="">
+            </div>
+          </div>
+          <div class="col-md-9">
+            <div class="banner">
+              <div class="bannerslide" id="bannerslide">
+                <ul class="slides">
+                  <li>
+                    <a href="#">
+                      <img src="imgs/thuc-pham-sach-viet-nam-banner-seo.png" alt="" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="imgs/Banner 2.png" alt="" />
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="products-grid">
+              <div class="toolbar">
+                <div class="sorter">
+                  <div class="sort-by">
+                    Sắp xếp :
+                    <select name="">
+                      <option value="Default" selected>
+                        Mặc định
+                      </option>
+                      <option value="Name">
+                        Tên
+                      </option>
+                      <option value="Price">
+                        Giá
+                      </option>
+                    </select>
+                  </div>
+                  <div class="limiter">
+                    Xem :
+                    <select name="">
+                      <option value="3" selected>
+                        3
+                      </option>
+                      <option value="6">
+                        6
+                      </option>
+                    </select>
+                  </div>
+                </div>
+                <div class="pager">
+                  <a href="#" class="prev-page">
+                    <i class="fa fa-angle-left">
+                    </i>
+                  </a>
+                  <a href="#" class="active">
+                    1
+                  </a>
+                  <a href="#">
+                    2
+                  </a>
+                  <a href="#">
+                    3
+                  </a>
+                  <a href="#" class="next-page">
+                    <i class="fa fa-angle-right">
+                    </i>
+                  </a>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-4 col-sm-6">
+                  <div class="products">
+                    <div class="offer">
+                      -50%
+                    </div>
+                    <div class="thumbnail">
+                      <a href="details-bellpepper.html">
+                        <img src="imgs/ot.png" alt="ỚT CHUÔNG" style="max-width: 85%;">
+                      </a>
+                    </div>
+                    <div class="productname">
+                      ỚT CHUÔNG (200g)
+                    </div>
+                    <h4 class="price">
+                      20.000đ
+                    </h4>
+                    <div class="button_group">
+                      <button class="button add-cart" type="button"><a href="cart2.html">MUA HÀNG</a></button>
+                      <button class="button wishlist" type="button">
+                        <a href="cart2.html">
+                          <i class="material-icons" style="font-size:18px">shopping_cart</i> </a>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                  <div class="products">
+                    <div class="offer">
+                      -25%
+                    </div>
+                    <div class="thumbnail">
+                      <a href="#">
+                        <img src="imgs/thitheo.png" alt="THỊT HEO">
+                      </a>
+                    </div>
+                    <div class="productname">
+                      THỊT HEO (500g)
+                    </div>
+                    <h4 class="price">
+                      60.500đ
+                    </h4>
+                    <div class="button_group">
+                      <button class="button add-cart" type="button"><a href="cart2.html">MUA HÀNG</a></button>
+                      <button class="button wishlist" type="button">
+                        <a href="cart2.html">
+                          <i class="material-icons" style="font-size:18px">shopping_cart</i> </a>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                  <div class="products">
+                    <div class="offer">
+                      -29%
+                    </div>
+                    <div class="thumbnail">
+                      <a href="#">
+                        <img src="imgs/cachua1.png" alt="CÀ CHUA" style="max-width: 85%;">
+                      </a>
+                    </div>
+                    <div class="productname">
+                      CÀ CHUA (500g)
+                    </div>
+                    <h4 class="price">
+                      19.000đ
+                    </h4>
+                    <div class="button_group">
+                      <button class="button add-cart" type="button"><a href="cart2.html">MUA HÀNG</a></button>
+                      <button class="button wishlist" type="button">
+                        <a href="cart2.html">
+                          <i class="material-icons" style="font-size:18px">shopping_cart</i> </a>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                  <div class="products">
+                    <div class="offer">
+                      -29%
+                    </div>
+                    <div class="thumbnail">
+                      <a href="details-guava.html">
+                        <img src="imgs/oi.png" alt="ỔI NỮ HOÀNG" style="max-width: 85%;">
+                      </a>
+                    </div>
+                    <div class="productname">
+                      ỔI NỮ HOÀNG (1kg)
+                    </div>
+                    <h4 class="price">
+                      29.000đ
+                    </h4>
+                    <div class="button_group">
+                      <button class="button add-cart" type="button"><a href="cart2.html">MUA HÀNG</a></button>
+                      <button class="button wishlist" type="button">
+                        <a href="cart2.html">
+                          <i class="material-icons" style="font-size:18px">shopping_cart</i> </a>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                  <div class="products">
+                    <div class="offer">
+                      -29%
+                    </div>
+                    <div class="thumbnail">
+                      <a href="#">
+                        <img src="imgs/carot.png" alt="CÀ RỐT">
+                      </a>
+                    </div>
+                    <div class="productname">
+                      CÀ RỐT (1kg)
+                    </div>
+                    <h4 class="price">
+                      29.000đ
+                    </h4>
+                    <div class="button_group">
+                      <button class="button add-cart" type="button"><a href="cart2.html">MUA HÀNG</a></button>
+                      <button class="button wishlist" type="button">
+                        <a href="cart2.html">
+                          <i class="material-icons" style="font-size:18px">shopping_cart</i> </a>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                  <div class="products">
+                    <div class="offer">
+                      -50%
+                    </div>
+                    <div class="thumbnail">
+                      <a href="#">
+                        <img src="imgs/xalach.png" alt="XÀ LÁCH">
+                      </a>
+                    </div>
+                    <div class="productname">
+                      XÀ LÁCH (500g)
+                    </div>
+                    <h4 class="price">
+                      13.000đ
+                    </h4>
+                    <div class="button_group">
+                      <button class="button add-cart" type="button"><a href="cart2.html">MUA HÀNG</a></button>
+                      <button class="button wishlist" type="button">
+                        <a href="cart2.html">
+                          <i class="material-icons" style="font-size:18px">shopping_cart</i> </a>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="toolbar">
+                <div class="sorter bottom">
+                  <div class="sort-by">
+                    Sắp xếp :
+                    <select name="">
+                      <option value="Default" selected>
+                        Mặc định
+                      </option>
+                      <option value="Name">
+                        Tên
+                      </option>
+                      <option value="Price">
+                        Giá
+                      </option>
+                    </select>
+                  </div>
+                  <div class="limiter">
+                    Xem :
+                    <select name="">
+                      <option value="3" selected>
+                        3
+                      </option>
+                      <option value="6">
+                        6
+                      </option>
+                    </select>
+                  </div>
+                </div>
+                <div class="pager">
+                  <a href="#" class="prev-page">
+                    <i class="fa fa-angle-left">
+                    </i>
+                  </a>
+                  <a href="#" class="active">
+                    1
+                  </a>
+                  <a href="#">
+                    2
+                  </a>
+                  <a href="#">
+                    3
+                  </a>
+                  <a href="#" class="next-page">
+                    <i class="fa fa-angle-right">
+                    </i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="our-brand">
+          <h3 class="title">
+            ĐỐI TÁC
+          </h3>
+          <ul id="braldLogo">
+            <li>
+              <ul class="brand_item">
+                <li>
+                  <a href="#">
+                    <div class="brand-logo">
+                      <img src="imgs/TH1.png" alt="" style width="100%" ; height="50px">
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <div class="brand-logo">
+                      <img src="imgs/TH3.png" alt="" style width="100%" ; height="50px">
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <div class="brand-logo">
+                      <img src="imgs/LGTH3.PNG" alt="" style width="100%" ; height="50px">
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <div class="brand-logo">
+                      <img src="imgs/TH2.png" alt="" style width="100%" ; height="50px">
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <div class="brand-logo">
+                      <img src="imgs/fresh-logo-design-13350105.jpg" alt="" style width="100%" ; height="50px">
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="footer-info">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3">
+              <div class="footer-logo">
+                <a href="index.html">
+                  <img src="imgs/Logo.png" alt="" style="max-width: 70%;">
+                </a>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <h4 class="title">Thông tin liên hệ</h4>
+              <p>Địa chỉ: 141-145 Điện Biên Phủ, P15, Quận Bình Thạnh, TP.HCM, Việt Nam</p>
+              <p>Số điện thoại: (084) 1900 9999</p>
+              <p>Email : homeflavor@gmail.com</p>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <h4 class="title">Hỗ trợ khách hàng</h4>
+              <ul class="support">
+                <li>
+                  <a href="#">
+                    Thông tin liên hệ
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Chính sách giao hàng
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Chính sách đổi hàng
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Hướng dẫn đổi hàng
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-3">
+              <h4 class="title"> Đăng ký nhận tin</h4>
+              <p>HOME FLAVOR chuyên cung cấp các thực phẩm tươi sống mỗi ngày.</p>
+              <form class="newsletter">
+                <input type="text" name="" placeholder="Điền email của bạn....">
+                <input type="submit" value="Đăng ký" class="button">
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright-info">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <a href="#"> © 2023. Bản quyền thuộc về HomeFlavor Team</a>
+            </div>
+            <div class="col-md-6">
+              <ul class="social-icon">
+                <li>
+                  <a href="#" class="linkedin">
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="google-plus">
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="twitter">
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="facebook">
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="js/jquery-1.10.2.min.js">
+  </script>
+  <script type="text/javascript" src="js/jquery.easing.1.3.js">
+  </script>
+  <script type="text/javascript" src="js/bootstrap.min.js">
+  </script>
+  <script defer src="js/jquery.flexslider.js">
+  </script>
+  <script type="text/javascript" src="js/jquery.sequence-min.js">
+  </script>
+  <script type="text/javascript" src="js/jquery.carouFredSel-6.2.1-packed.js">
+  </script>
+  <script type="text/javascript" src="js/script.min.js">
+  </script>
+</body>
+
+</html>
